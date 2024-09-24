@@ -21,6 +21,9 @@ export default function Home() {
               <a href="#">Home</a>
             </li>
             <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
               <a href="#projects">Projects</a>
             </li>
             <li>
@@ -151,7 +154,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="about container">
+        <section id="about" className="about container">
           <h2>
             <small>Get to Know Me</small>About Me
           </h2>
@@ -394,7 +397,7 @@ export default function Home() {
             Completed Projects
           </h2>
           <div className="bento-grid">
-            <a href="#" class="bento-item">
+            <a href="https://lieas.vercel.app/" class="bento-item">
               <img src="./imgs/project1.png" alt="LIEAS" />
               <div className="project-info">
                 <h3>LIEAS Website</h3>
