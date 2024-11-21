@@ -70,7 +70,7 @@ export default function Home() {
               </p>
               <div className="call-to-action">
                 <a
-                  href="./GeitodyuHenrique_Crusoe_Resume.pdf"
+                  href="./Resume.pdf"
                   className="button black"
                 >
                   {" "}
